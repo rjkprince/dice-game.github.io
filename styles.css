@@ -1,0 +1,146 @@
+header h1 {
+  color: rgb(255, 0, 200);
+  text-align: center;
+  letter-spacing: 20px;
+  word-spacing: 40px;
+  margin-top: 0;
+}
+header {
+  background-color: rgb(184, 245, 181);
+}
+.instr p {
+  color: rgb(31, 251, 2);
+  text-align: center;
+  font-weight: 500;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'sans-serif', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ecca3;
+}
+#div1 {
+  text-align: center;
+}
+.button {
+  color: white;
+  padding: 6px 8px;
+  background-color: red;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.button:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+.button:focus {
+  outline: none;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: 'sans-serif', cursive;
+}
+
+img {
+  width: 60%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: 'sans-serif', cursive;
+}
+.nameIn {
+  display: flex;
+  justify-content: space-around;
+}
+.pl {
+  font-family: 'sans-serif', cursive;
+  color: rgb(248, 161, 0);
+  margin-right: 10px;
+  font-size: 20px;
+}
+#Player-1 {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  width: 250px;
+  font-family: 'sans-serif', cursive;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+#Player-2 {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  width: 250px;
+  font-family: 'sans-serif', cursive;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+#Player-1:focus {
+  outline: none;
+}
+#Player-2:focus {
+  outline: none;
+}
+#btns {
+  display: flex;
+  justify-content: space-around;
+}
+#dices {
+  display: flex;
+  justify-content: space-around;
+}
+.dice1 {
+  margin-left: 200px;
+}
+.dice2 {
+  margin-right: 200px;
+}
+.mybtn {
+  margin-left: 45%;
+  margin-top: 10px;
+}
+.score {
+  border: 1px solid wheat;
+  text-align: center;
+}
+.score p {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#big-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.sc1 {
+  margin-left: 100px;
+}
+.sc2 {
+  margin-right: 100px;
+}

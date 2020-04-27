@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="icon"  href="images/favicon.ico">
+
+  </head>
+  <body>
+    <header>
+      <h1>Dice Game</h1>
+    </header>
+    <div class="instr"><p>!!!  Every player has 5 chances. The one who scores most will be the winner  !!!</p></div>
+    <div class="nameIn"><div><label for="Player-1" class="pl">Player-1 Name:</label><input type="text" placeholder="Enter Player-1 Name" id="Player-1" name="Player-1" value="">
+    </div> <div><label for="Player-2" class="pl">Player-2 Name:</label><input type="text" placeholder="Enter Player-2 Name" id="Player-2">
+    </div></div>
+    <button class='button mybtn' id="mybtn">Set The Names</button>
+    <div id="big-cont">
+    <div class="score sc1">
+      <p id="p1sc">Player-1 Score</p>
+      <p id="1stSc1"></p>
+      <p id="2ndSc1"></p>
+      <p id="3rdSc1"></p>
+      <p id="4thSc1"></p>
+      <p id="5thSc1"></p>
+      <p id="6thSc1"></p>
+      <p id="total1">Your total score is: 0</p>
+    </div>
+    <div>
+    <div class="container">
+      <div id="div1"><h1 id="h1">Click to play</h1></div>
+      <div id="btns"><button id="button-1" class="button">Player 1</button>
+      <button id="button-2" class="button">Player 2</button></div></div>
+      <div id="dices"><div class="dice dice1">
+        <p id="ply1">Player 1</p>
+        <img id="img1" src='images/dice1.png'>
+      </div>
+
+      <div class="dice dice2">
+        <p id="ply2">Player 2</p>
+        <img id="img2" src='images/dice1.png'>
+      </div></div>
+
+    </div>
+    <div class="score sc2">
+      <p id="p2sc">Player-2 Score</p>
+      <p id="1stSc2"></p>
+      <p id="2ndSc2"></p>
+      <p id="3rdSc2"></p>
+      <p id="4thSc2"></p>
+      <p id="5thSc2"></p>
+      <p id="6thSc2"></p>
+      <p id="total2">Your total score is: 0</p>
+    </div></div></div>
+    <script type="text/javascript" src="dicee.js"></script>
+
+  </body>
+
+  <footer>
+    www 🎲 Rajesh 🎲 com
+  </footer>
+</html>
