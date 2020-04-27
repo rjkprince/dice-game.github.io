@@ -116,10 +116,11 @@ footer {
   justify-content: space-around;
 }
 .dice1 {
-  margin-left: 200px;
+  margin-left: 100px;
+  
 }
 .dice2 {
-  margin-right: 200px;
+  margin-right: 100px;
 }
 .mybtn {
   margin-left: 45%;
