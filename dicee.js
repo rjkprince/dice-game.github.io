@@ -8,6 +8,7 @@ var ply2 = document.getElementById('ply2');
 var P1Name = document.getElementById('Player-1');
 var P2Name = document.getElementById('Player-2');
 var mybtn = document.getElementById('mybtn');
+var mybtn1 = document.getElementById('mybtn1');
 var total1 = document.getElementById('total1');
 var total2 = document.getElementById('total2');
 var p1sc = document.getElementById('p1sc');
@@ -148,8 +149,11 @@ function changeName() {
     button2.innerText = str2 + ' Click Me';
   }
 }
+function replay() {
+  location.reload();
+}
 
 button1.addEventListener('click', play1);
 button2.addEventListener('click', play2);
-
+mybtn1.addEventListener('click', replay);
 mybtn.addEventListener('click', changeName);
