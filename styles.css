@@ -28,6 +28,7 @@ header {
 body {
   margin: 0;
   background-color: #000000;
+  height: 100vh;
 }
 
 h1 {
@@ -117,7 +118,6 @@ footer {
 }
 .dice1 {
   margin-left: 100px;
-  
 }
 .dice2 {
   margin-right: 100px;
@@ -125,6 +125,13 @@ footer {
 .mybtn {
   margin-left: 45%;
   margin-top: 10px;
+  background-color: rgb(225, 246, 140);
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+.mybtn:hover {
+  background-color: aquamarine;
+  color: #000000;
 }
 .score {
   border: 1px solid wheat;
@@ -144,4 +151,7 @@ footer {
 }
 .sc2 {
   margin-right: 100px;
+}
+#mybtn1 {
+  margin-left: 47%;
 }
